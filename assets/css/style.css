@@ -51,7 +51,7 @@ body {
 
 .banner-content p {
     font-size: 20px;
-    background-color: yellowgreen;
+ 
 }
 
 .banner-content button {
@@ -138,10 +138,6 @@ h2 {
     font-weight: 900;
     text-transform: lowercase;
     max-width: 17rem;
-}
-
-#professional-challenges {
-
 }
 
 #professional-challenges img {
