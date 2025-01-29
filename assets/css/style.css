@@ -30,7 +30,6 @@ body {
     background-clip: text;
     font-weight: 900;
     text-transform: uppercase;
-    display: block;
 }
 
 .logo {
@@ -52,6 +51,7 @@ body {
 
 .banner-content p {
     font-size: 20px;
+    background-color: yellowgreen;
 }
 
 .banner-content button {
@@ -71,6 +71,8 @@ body {
 }
 
 #course-content, #professional-challenges {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: black;
     padding-bottom: 6rem;
@@ -108,7 +110,7 @@ h2 {
 }
 
 #course-content p, #professional-challenges p {
-    display: inline-block;
+    align-self: center;
     font-size: 1rem;
     color: white;
     margin-bottom: 1rem;
@@ -138,13 +140,14 @@ h2 {
     max-width: 17rem;
 }
 
-#professional-challenges h2 {
-    display: inline-block;
-    max-width: 60rem;
+#professional-challenges {
+
 }
 
 #professional-challenges img {
     margin-bottom: 40px;
+    max-width: 659px;
+    align-self: center
 }
 
 footer {
